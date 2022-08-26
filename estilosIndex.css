@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+/*----------CABEZERA -----------------------*/
+.periodico{
+    border: 1px solid black;
+    width: 1400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #e7e7e7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cabezera{
+    text-align: center;
+}
+.cabezera h3{
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 5px ;
+}
+.cabezera b {
+    background-color: black;
+    color: white;
+}
+.apartado1 div{
+    background-color: black;
+    padding: 0%;
+}
+.apartado1{
+    border: 1px solid black;
+    padding: 0%;
+}
+.apartado2{
+    border: 1px solid black;
+}
+.apartado2 div{
+    background-color: black;
+}
+/*-----------------LOGO----------------------------*/
+.logo p{
+    font-style: italic;
+}
+.logo-portada{
+    height: 200px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo-portada h1{
+    text-align: center;
+    text-shadow:3px 10px black;
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    background-color: #de464e;
+}
+.logo-portada img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+}
+/*-------------articulo1 ---------------------*/
+
+.articulo1{
+    background-color: #030709;
+    color: white;
+}
+
+.articulo1 h1{
+    font-size: 150px;
+    font-weight: 1000;
+    width: 650px;
+    letter-spacing: -5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.articulo1 h3{
+    font-weight: 600;
+    font-size: 60px;
+}
+.art-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art-img img{
+    border: 2px solid white;
+    height: 400px;
+}
+/*------------- articulo2 ---------------------*/
+
+.articulo2{
+    margin-top: 20px;
+    border: 4px solid black;
+    height: 450px;
+}
+
+.articulo2 h1{
+    font-size: 150px;
+    font-weight: 1000;
+    width: auto;
+    color: black;
+    text-align: center;
+    letter-spacing: -10px;
+}
+.articulo2 h3{
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    font-size: 30px;
+}
+.articulo2 img{
+    border: 4px solid black;
+    width: 300px;
+    height: 310px;
+}
+.texto{
+    position: absolute;
+    bottom: -39%;
+    left:57%;
+    color: white;
+    font-weight: 700;
+}
+
+.articulo2 p{
+    height: 300px;
+    overflow: scroll;
+    overflow-x:hidden ;
+    border: none;
+}
+
+/*-------------footer-------------*/
+.footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: red;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
